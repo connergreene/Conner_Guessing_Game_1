@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+		<link rel='stylesheet' href='guess.css'>
+	</head>
+	<body>
+		<h1>Number Guessing Game</h1>
+
+		<fieldset>
+			<p>Guess a number between 1 and 100. You get 10 tries.</p>
+		 
+			<input type="text" id="guessInput" placeholder=" Guess 1 thru 100 "><br>
+		  
+			<button onclick="checkGuess();">Guess</button>
+			<button onclick="clearFields();">Reset</button> 
+			<button onclick="giveAnswer();">Give Answer</button> 
+		</fieldset>
+
+		<fieldset>
+			<p>Your current status:</p>
+			<output id="status_output">You have yet to guess anything.</output>
+			<p>Your Guesses:</p>
+			<output id="guess_output"></output>
+		</fieldset> 
+		<script src="Conner_Guessing_Game.js"></script>
+
+	</body>
+</html>
