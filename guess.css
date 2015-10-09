@@ -1,28 +1,33 @@
 h1{
-	color:red;
+  color:red;
+  text-shadow:5px 5px 5px black;
 }
 
 body {
-    text-align: center;
-    background: url("18hgjti706ptljpg.jpg") no-repeat center center fixed;
-    background-size: cover;
-    color:black;
+  text-align: center;
+  list-style-position:inside;
+  background-image: url("18hgjti706ptljpg.jpg");
+  background-size: cover;
+  color:black;
 }
 
 input {
-    background-color: black;
-    font-size: 30;
-    color: red;
+  background-color: black;
+  font-size: 30;
+  color: red;
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(100, 0, 0, 1);
+  padding: 10px 100px 10px 100px;
+  border: 1px solid rgba(100, 0, 0, 1);
+  outline:0;
 }
 
-input.padding {
-    padding-top: 25px;
-    padding-right: 50px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-    margin-bottom: : 100px;
+ol{
+  font-size: 25px;
 }
-
+.hint{
+  font-size: 25px;
+}
 .btn {
   background: #08090a;
   background-image: -webkit-linear-gradient(top, #08090a, #b82b2b);

@@ -4,27 +4,21 @@
 		<link rel='stylesheet' href='guess.css'>
 
 	</head>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 	<body>
 		<h1>Number Guessing Game</h1>
+		<p>You have 10 guesses!</p>
+		<p><input type='number' min='0' max='100'></p>
+		<button id='enter' class='btn'>Enter Guess</button>
+		<button id='giveHint' class='btn'>Give Hint</button>
+		<button id='restart' class='btn'>Restart</button>
 
-		<fieldset>
-			<p>Guess a number between 1 and 100. You get 10 tries.</p>
-		 
-			<input type="text" id="guessInput" size = "30" class="padding" placeholder=" Guess 1 thru 100 "><br>
-			<button type="button" class="btn" onclick="checkGuess();">Guess</button>
-			<button type="button" class="btn" onclick="clearFields();">Reset</button> 
-			<button type="button" class="btn" onclick="giveAnswer();">Give Answer</button> 
-		</fieldset>
+		<p id='hint' class='hint'></p>
 
-		<fieldset>
-			<p>Your current status:</p>
-			<output id="status_output">You have yet to guess anything.</output>
-			<p>Your Guesses:</p>
-			<output id="guess_output"></output>
-		</fieldset> 
-		<script src="Conner_Guessing_Game.js">
-
-		</script>
+		<ol>
+		</ol>
+		
+		<script src="Conner_Guessing_Game.js"></script>
 
 	</body>
 </html>
